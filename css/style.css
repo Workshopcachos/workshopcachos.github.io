@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-image: url(../img/fundo\ cachos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: #ffefbd;
+}
+
+.box {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(114 12 12);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 211, 156);
+    width: 100%;
+    margin: auto ;
+    margin-top: 50px;
+}
+
+.img {
+    width: 90px;
+    display: block;
+    margin: auto 0;
+}
+
+.header {
+    width: 73vw;
+    height: 13vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+h1 {
+    color: rgb(248, 218, 155);
+    font-size: 40px;
+    font-family: 'Arapey', serif;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 8px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 50vw;
+    margin-top: 55%;
+
+}
+
+.form {
+    width: 100%;
+    display: block;
+}
+
+.input {
+    font-family: 'Poppins', sans-serif;
+    padding: 13px 0;
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    border: none;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.checkbox {
+    display: block;
+    margin: 25px 0 25px 0;
+    width: 100%;
+    letter-spacing: 1px;
+    color: rgb(114 12 12);
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255 255 255);
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: #ffb322;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    border: none;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgb(246, 168, 12);
+    color: rgb(148, 101, 7);
+}
+
+h3 {
+    color: #ffb322;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    letter-spacing: 3px;
+}
